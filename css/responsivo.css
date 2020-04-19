@@ -1,0 +1,90 @@
+/* Estilo para tablets */
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+    .logo {
+        font-size: 18px;
+    }
+    .sobre {
+        height: 600px;
+    }
+}
+
+
+/* Final do estilo para tablet */
+
+
+/* Breakpoint */
+
+
+/* Estilo para smartphones */
+
+@media only screen and (max-width: 787px) {
+    .header {
+        height: 200px;
+        position: relative;
+    }
+    .headerMenu {
+        text-align: center;
+    }
+    .headerMenu ul li {
+        margin: 0;
+    }
+    .header ul li a {
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+        width: 140px;
+        line-height: 20px;
+        display: block;
+        float: left;
+        font-size: 14px;
+        padding: 10px 0;
+        letter-spacing: .1em;
+        transition: all .5s ease
+    }
+    .introducao {
+        height: 500px;
+        margin-top: 60px;
+    }
+    .notice_card {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .notice_card iframe {
+        padding-top: 10px;
+        max-width: 280px;
+    }
+    .notice_card h2 {
+        margin: 20px auto;
+        text-align: center;
+    }
+    .notice_card img {
+        width: 280px;
+        padding-top: 10px;
+    }
+    .notice_card audio {
+        max-width: 280px;
+    }
+    .footer {
+        background-color: #191a17
+    }
+    /* sobre */
+    .sobre {
+        height: 700px;
+    }
+    /* contato */
+    .form {
+        width: 364px;
+        height: 500px;
+    }
+    .contato {
+        height: 620px;
+    }
+    /* saiba mais */
+    .saiba_mais {
+        height: 480px;
+    }
+}
+
+
+/* Final do estilo para smartphone*/

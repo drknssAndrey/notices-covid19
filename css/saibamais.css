@@ -1,0 +1,111 @@
+/* 
+configuracao inicial
+*/
+
+.logo {
+    border: 3px solid #20ae92;
+    padding: 20px 30px;
+    color: #20ae92;
+    font-size: 24px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.btn_header:hover {
+    color: #20ae92;
+}
+
+
+/* header */
+
+.header {
+    background-color: #191a17;
+    height: 100px;
+    padding: 15px;
+}
+
+.headerMenu {
+    text-align: right;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.header ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 10px 0;
+    letter-spacing: .1em;
+    transition: all .5s ease
+}
+
+
+/* introduction */
+
+.introducao {
+    width: 100%;
+    height: 380px;
+    background-color: #191a17;
+    margin-top: 60px;
+    padding-top: 20px;
+}
+
+.introducao h1 {
+    font-size: 36px;
+    color: white;
+    font-weight: 700;
+}
+
+.introducao h1::after {
+    content: "";
+    display: block;
+    max-width: 400px;
+    height: 3px;
+    background-color: #fff;
+    margin: 14px 0 10px
+}
+
+.introducao ul li {
+    margin: 10px auto;
+}
+
+.introducao ul li a {
+    color: white;
+}
+
+.introducao ul li a:hover {
+    color: #20ae92;
+}
+
+
+/* Notices */
+
+.notices {
+    margin-top: 60px;
+}
+
+
+/* footer */
+
+.footer {
+    margin-top: 60px;
+    background-color: #191a17;
+    height: 60px;
+}
+
+.footer p {
+    margin-top: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}

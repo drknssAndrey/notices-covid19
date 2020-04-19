@@ -1,0 +1,178 @@
+/* 
+configuracao inicial
+*/
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.logo {
+    border: 3px solid #20ae92;
+    padding: 20px 30px;
+    color: #20ae92;
+    font-size: 24px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.btn_header:hover {
+    color: #20ae92;
+}
+
+.btn {
+    border: 3px solid white;
+    padding: 10px 30px;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: 700;
+    transition: all .5s ease
+}
+
+.btn:hover {
+    color: #20ae92;
+    border-color: #20ae92;
+}
+
+
+/* header */
+
+header {
+    background-color: #191a17;
+    height: 100px;
+    width: 100%;
+    padding: 15px 0;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+}
+
+.headerMenu {
+    text-align: right;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.header ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 10px 0;
+    letter-spacing: .1em;
+    transition: all .5s ease
+}
+
+
+/* introduction */
+
+.introducao {
+    width: 100%;
+    height: 300px;
+    background-color: #191a17;
+    margin-top: 160px;
+    padding-top: 20px;
+}
+
+.introducao h1 {
+    font-size: 36px;
+    color: white;
+    font-weight: 700;
+}
+
+.introducao h1::after {
+    content: "";
+    display: block;
+    max-width: 400px;
+    height: 3px;
+    background-color: #fff;
+    margin: 14px 0 10px
+}
+
+.introducao p {
+    max-width: 960px;
+    margin-top: 20px;
+    color: white;
+    text-align: justify;
+}
+
+
+/* Notices */
+
+.notices {
+    margin-top: 60px;
+}
+
+.notice_card {
+    background-color: #1e1e1a;
+    height: 400px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: #191a17 2px 2px 3px;
+}
+
+.notice_card:hover {
+    box-shadow: #191a17 2px 2px 6px;
+}
+
+.notice_img {
+    width: 364px;
+    height: 230px;
+    margin: 20px auto;
+}
+
+.notice_card iframe {
+    width: 364px;
+    height: 230px;
+    margin: 20px auto;
+    display: block;
+}
+
+.notice_card audio {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+    width: 364px;
+}
+
+.notice_card h2 {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 364px;
+    font-weight: 700;
+    color: white;
+}
+
+.notice_about {
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+}
+
+
+/* footer */
+
+.footer {
+    margin-top: 40px;
+    background-color: #191a17;
+    height: 60px;
+}
+
+.footer p {
+    margin-top: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
