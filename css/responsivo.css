@@ -18,7 +18,7 @@
 
 /* Estilo para smartphones */
 
-@media only screen and (max-width: 787px) {
+@media only screen and (max-width: 767px) {
     .header {
         height: 200px;
         position: relative;
